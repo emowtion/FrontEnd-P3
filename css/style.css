@@ -31,9 +31,6 @@ legend {
 	margin-bottom: 15px;
 }
 
-
-
-
 .container h1,
 .text-center p {
 	text-align: center;
@@ -53,13 +50,11 @@ h1 {
 
 }
 
-
 .t-border {
 	border-bottom: solid 1px #204465;
 	padding: 2px;
 	margin-bottom: 10px;
 }
-
 .a-border {
 	border-top: 5px solid #204465;
 }
@@ -83,17 +78,11 @@ input::placeholder {
 	font-style: italic;
 
 }
-
-.inner-group {
-	display: flex;
-	flex-direction: column;
-}
-
+.inner-group,
 .outer-group {
 	display: flex;
 	flex-direction: column;
 }
-
 .outer-group textarea,
 input {
 	background-color: #dddada;
@@ -106,20 +95,17 @@ input:focus,
 textarea:focus {
 	border: 2px solid #204465;
 }
-
 label {
 	color: grey;
 	font-size: 14px;
 	margin: 6px;
 }
-
 .outer-group label[for="message"] {
 	font-size: 12px;
 	color: darkgray;
 	margin: 25px 0 25px;
 
 }
-
 .inner-group select {
 	padding: 15px;
 	background: #dddada;
@@ -127,16 +113,12 @@ label {
 	border-radius: 5px;
 	border: none;
 }
-
 .inner-group option {
 	color: grey;
 }
-
-
 .zip-code input {
 	width: 50%;
 }
-
 textarea {
 	margin-bottom: 20px;
 }
@@ -149,11 +131,9 @@ button[type="submit"] {
 	border-radius: 5px;
 	border: none;
 }
-
 .inner-group:last-child {
 	margin-bottom: 30px;
 }
-
 footer {
 	font-style: italic;
 	font-size: 12px;
@@ -170,40 +150,29 @@ footer {
 		width: 80%;
 		margin: auto;
 	}
-
-
 	.inner-group {
 		display: flex;
 		flex-direction: row;
 	}
-
 	.inner-group label {
 		flex-basis: 9rem;
 		padding: 10px;
 		margin-left: -9px;
 	}
-
 	.inner-group input,
 	select {
 		border-radius: 5px;
 		width: 80%;
 	}
-
 	.second-fieldset input[type="checkbox"] {
 		padding: 10px;
 	}
-
 	.zip-code input {
 		width: 25%;
 	}
-
-
-
 	.inner-group,
 	.outer-group {
 		padding: 10px 0 10px;
 	}
-
-
 
 }
