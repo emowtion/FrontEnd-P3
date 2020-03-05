@@ -31,10 +31,7 @@ legend {
 	margin-bottom: 15px;
 }
 
-.container {
-	width: 90%;
-	margin: auto;
-}
+
 
 
 .container h1,
@@ -156,14 +153,13 @@ footer {
 
 /* media quiries --------------------------------------------------------------------- */
 
-@media (min-width: 789px) {
+@media (min-width: 768px) {
 	.container {
-		width: 60%;
+		width: 80%;
 		margin: auto;
 	}
-
 	form {
-		width: 60%;
+		width: 95%;
 		margin: auto;
 		padding: 30px;
 	}
